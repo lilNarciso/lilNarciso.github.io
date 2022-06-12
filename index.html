@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link href="imgs/iso_vdm.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <title>Villa Dón Mateo</title>
+</head>
+<body>
+    <!-- index -->
+    <div class="full-viewport" style="background:#F7F6F6" id="index">
+        <div class="viewport-container">
+            <header class="container-header">
+                <nav class="header-navUno">
+                    <a href="#quienesSomos" class="style-a">¿Quiénes somos?</a>
+                    <a href="#contactenos" class="style-a">Contáctenos</a>
+                    <a href="#galeria" class="style-a">Galería</a>
+                </nav>
+                <img src="imgs/logo.png" class="header-img" alt="">
+                <nav class="header-navDos">
+                    <a href="views/SignIn.php" class="style-a">Registrarse</a>
+                    <a href="views/LogIn.php" class="style-a">Ingresar</a>
+                </nav>
+            </header>
+            <div class="fraseIndex">
+                <div class="linea-container"><div class="linea"></div></div>
+                <label for="">Un espacio y una comunidad de calidad en la región.</label>
+                <div class="linea-container"><div class="linea"></div></div>
+            </div>
+            <section class="index-section">
+                <img src="imgs/Grupo 1.png" alt="" class="index-sectionImg">
+                <div class="index-sectionFrase">
+                    <label for="" class="index-sectionFrase_label">Bienvenido a la</label>
+                    <img src="imgs/Villa_Don_Mateo_1_y_2.png" alt="" class="index-sectionFrase_img">
+                    <div class="linea-frase"></div>
+                    <a href="views/LogIn.php" class="index-sectionA">Ingresar ></a>
+                </div>
+            </section>
+            <div class="fraseIndex">
+                <div class="linea-container"><div class="linea"></div></div>
+                <label for="">Villa Don Mateo 1 & 2, Rancagua, Chile.</label>
+                <div class="linea-container"><div class="linea"></div></div>
+            </div>
+        </div>
+    </div>
+    <!-- Quienes somos -->
+    <div class="full-viewport" style="background: #FFFFFF;" id="quienesSomos">
+        <div class="viewport-container">
+            <div class="quienesSomos-sectionUno">
+                <img src="imgs/logoDonMateoLight.png" alt="" class="quienesSomos-arribaImg_uno">
+                <img src="imgs/Villa_Don_MateoLight.png" alt="" class="quienesSomos-arribaImg_dos">
+            </div>
+            <section class="quienesSomos-section">
+                <div class="quienesSomos-section_parrafo">
+                    <label for="">¿Quiénes somos?</label>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit , sed <br>
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> <br>
+                        
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
+                        laboris nisi ut aliquip ex ea commodo consequat. <br> <br>
+                        
+                        Duis aute irure dolor in reprehenderit in voluptate velit <br>
+                        esse cillum dolore eu fugiat nulla pariatur. <br> <br>
+                        
+                        Excepteur sint occaecat cupidatat non proident, sunt <br>
+                        in culpa qui officia deserunt mollit anim <br>
+                        id est laborum. 
+                    </p>
+                </div>
+                <img src="imgs/galeria4.jpg" alt="" class="quienesSomos-section_img">
+            </section>
+            <div class="fraseIndex">
+                <div class="linea-container"><div class="linea"></div></div>
+                <div class="nav-pagina">
+                    <a href="#index" class="style-a">Inicio</a>
+                    <a href="#contactenos" class="style-a">Contáctenos</a>
+                    <a href="#galeria" class="style-a">Galería</a>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- contactenos -->
+    <div class="full-viewport" style="background:#F7F6F6" id="contactenos">
+        <div class="viewport-container">
+            <div class="quienesSomos-sectionUno">
+                <img src="imgs/logoDonMateoDark.png" alt="" class="quienesSomos-arribaImg_uno">
+                <img src="imgs/Villa_Don_MateoDark.png" alt="" class="quienesSomos-arribaImg_dos">
+            </div>
+            <section class="contactenos-section">
+                <br><br>
+                <label for="" class="contactenos-section_label">Contáctenos</label>
+                <form action="" class="contactenos-section_form">
+                    <div class="contactenos-form_uno">
+                        <div class="contactenos-form_nombreCompleto">
+                            <label for="" class="label_style">Nombre completo:</label>
+                            <input type="text" class="input_text" required>
+                        </div>
+                        <div class="contactenos-form_correoElectronico">
+                            <label for="" class="label_style">Correo electrónico:</label>
+                            <input type="email" class="input_text" required>
+                        </div>
+                    </div>
+                    <div class="contactenos-form_asunto">
+                        <label for="" class="label_style">Asunto:</label>
+                        <input type="text" class="input_text" required>
+                    </div>
+                    <div class="contactenos-form_motivo">
+                        <div>
+                            <h4 id="form_contactenos-1text" class="label_style">Motivo:</h4>
+                        </div>
+                        <div>
+                            <input type="radio" style="cursor: pointer;" name="Motivo" value="" id="Reclamo" class="radio_edit" />
+                            <labelfor for="Reclamo" id="form_contactenos-1text">Reclamo</labelfor>
+                        </div>
+                        <div>
+                            <input type="radio" style="cursor: pointer;" name="Motivo" value="" id="Sugerencia" class="radio_edit"/>
+                            <labelfor for="Sugerencia" id="form_contactenos-1text">Sugerencia</labelfor>
+                        </div>
+                        <div>
+                            <input type="radio" style="cursor: pointer;" name="Motivo" value="" id="Consulta" class="radio_edit"/>
+                            <labelfor for="Consulta" id="form_contactenos-1text">Consulta</labelfor>
+                        </div>
+                    </div>
+                    <div class="contactenos-form_textArea">
+                        <label for="" class="label_style">Mensaje:</label>
+                        <textarea name="" id="" cols="30" rows="10" class="contactenos_textArea" required></textarea>
+                    </div>
+                    <div class="contactenos-form_submit">
+                        <input type="submit" value="Enviar >" class="contactenos-form_submitBotton">
+                    </div>
+                </form>
+            </section>
+            <div class="fraseIndex">
+                <div class="linea-container"><div class="linea"></div></div>
+                <div class="nav-pagina">
+                    <a href="#index" class="style-a">Inicio</a>
+                    <a href="#quienesSomos" class="style-a">¿Quiénes somos?</a>
+                    <a href="#galeria" class="style-a">Galería</a>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- galeria -->
+    <div class="full-viewport-footer" style="background: #FFFFFF;" id="galeria">
+        <section class="container-galeria">
+            <label for="" class="galeria-label">Galería</label>
+            <div class="galeria_box-container">
+                <div class="galeria_box-miniContainer">
+                    <div class="galeria_box-pequeño">
+                        <img src="imgs/23cb3397ebc83f4d1c69129989882724.jpg" alt="">
+                    </div>
+                    <div class="galeria_box-pequeño">
+                        <img src="imgs/8bdd49e48881321c68e1cb6e8e8d8412.jpg" alt="">
+                    </div>
+                    <div class="galeria_box-pequeño">
+                        <img src="imgs/cf1f15a29428ef5f87b54779166020ad.jpg" alt="">
+                    </div>
+                    <div class="galeria_box-pequeño">
+                        <img src="imgs/e1dd99367c52ab8e0446247826e555ac.jpg" alt="">
+                    </div>
+                    <div class="galeria_box-pequeñoLabel">
+                        <a href="" class="galeria-sectionA">Ver mas ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="viewport-container-footer">
+                <div class="fraseIndex">
+                    <div class="linea-container"><div class="linea"></div></div>
+                    <div class="nav-pagina">
+                        <a href="#index" class="style-a">Inicio</a>
+                        <a href="#quienesSomos" class="style-a">Quiénes somos?</a>
+                        <a href="#contactenos" class="style-a">Contáctenos</a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <footer style="background: #F7F6F6;" class="footer_galeria">
+            <div class="footer_section">
+                <div class="footer_left">
+                    <img src="imgs/logoDonMateoDark.png" alt="" class="footer_left-uno">
+                    <img src="imgs/Villa_Don_MateoDark.png" alt="" class="footer_left-dos">
+                </div>
+                <div class="footer_center"></div>
+                <div class="footer_right">
+                    <a href="#index" class="style-a">Inicio</a>
+                    <a href="#quienesSomos" class="style-a">Quiénes somos?</a>
+                    <a href="#contactenos" class="style-a">Contáctenos</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
