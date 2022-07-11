@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Echeverría</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,
+    wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,
+    300&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    
+    <div class="fullPage principal">
+        <div class="header-principal">
+            <label class="labelStyle">Portfolio 2022</label>
+            <li class="content-li">
+                <a href="" class="btn-a">&nbspTwitter</a>
+                <a href="" class="btn-a">&nbspBehance</a>
+                <a href="" class="btn-a">&nbspInstagram</a>
+            </li>
+        </div>
+        <div class="footer-principal"></div>
+        <div class="content-center">
+            <img class="content-center-img content-center-child" src="source/ceLogoSimple.png">
+            <label class="content-center-name content-center-child">Cristian Echeverría</label>
+            <label class="content-center-tag">web developer</label>
+            <li class="content-li">
+                <a href="#pageTwo" class="content-btn content-center-a">
+                    <img src="source/down.png">
+                </a>
+            </li>
+            <div class="circle"></div>
+        </div>
+        <div class="footer-principal"></div>
+    </div>
+    <div class="fullPage" id="pageTwo">
+        
+    </div>
+    <script>
+        const circle = document.querySelector('.circle');
+        document.addEventListener('mousemove', (e) => {
+            circle.style.left = e.pageX + 'px';
+            circle.style.top = e.pageY + 'px';
+        })
+    </script>
+</body>
+</html>
